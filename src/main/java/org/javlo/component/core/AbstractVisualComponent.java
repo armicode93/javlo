@@ -2387,6 +2387,7 @@ public abstract class AbstractVisualComponent implements IContentVisualComponent
 				e.printStackTrace();
 			}
 			if (url.endsWith(".html")) {
+				System.out.println("******* templateEngineffffffffffffffffffffffff *******");
 				return ServletHelper.executeThymeleaf(request, response);
 			} else {
 
